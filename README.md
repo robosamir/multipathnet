@@ -253,7 +253,9 @@ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.561
 ```
 ### ROS
 Subscribes to /camera/rgb/image_color and publishes to /objectInfo with the following format:
+
 class_name, probability, x1, y1, x2, y2
+
 Depends on: torch-ros
 
 ```bash
